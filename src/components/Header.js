@@ -19,7 +19,7 @@ function Header () {
                     </div>
                 </div>
             </div>
-            <h1 className="title">
+            <h1 className="title app-name">
                 Zekiblue Homepage
             </h1>
         </div>
