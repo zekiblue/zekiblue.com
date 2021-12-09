@@ -72,6 +72,10 @@ a {
     margin: 2px 4px 4px 4px;
     border: 1px solid #111;
     background-color: #ddd;
+        /*background: rgb(2,0,36) !important;
+        background: linear-gradient(331deg, rgba(2,0,36,1) 0%, rgba(139,88,94,1) 0%, rgba(53,101,125,1) 14%, rgba(40,127,156,1) 29%, rgba(0,212,255,1) 100%) !important;
+        padding-bottom: 4%;*/
+    
     box-shadow:
 	-1px -1px 0px 0px #999,
 	1px 1px 0px 0px #fff,
