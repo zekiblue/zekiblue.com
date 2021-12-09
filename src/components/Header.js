@@ -20,7 +20,7 @@ function Header () {
                 </div>
             </div>
             <h1 className="title">
-                Zekiblue Homepage!
+                Zekiblue Homepage
             </h1>
         </div>
     )

@@ -11,8 +11,9 @@ const InnerComponent = (props) => {
 //        </div>
         <div className="inner">
         <ul>
-	        <li className="s">Welcome to my page!</li>
-            <li className="s">A system error has occurred. Please reboot your Mac.</li>
+	        <li className="title">Welcome!</li>
+            <br></br>
+            <li className="s">I am machine learning engineer. I love building and learning along the way. </li>
         </ul>
     </div>
     );
