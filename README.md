@@ -1,2 +1,0 @@
-# zekiblue.com
-personal website
