@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/zekiblue.com/static/css/main.a617e044.chunk.css",
-    "main.js": "/zekiblue.com/static/js/main.2b3fb1b7.chunk.js",
-    "main.js.map": "/zekiblue.com/static/js/main.2b3fb1b7.chunk.js.map",
-    "runtime-main.js": "/zekiblue.com/static/js/runtime-main.2ad18e65.js",
-    "runtime-main.js.map": "/zekiblue.com/static/js/runtime-main.2ad18e65.js.map",
-    "static/js/2.76e8ed9f.chunk.js": "/zekiblue.com/static/js/2.76e8ed9f.chunk.js",
-    "static/js/2.76e8ed9f.chunk.js.map": "/zekiblue.com/static/js/2.76e8ed9f.chunk.js.map",
-    "static/js/3.8c8f8b40.chunk.js": "/zekiblue.com/static/js/3.8c8f8b40.chunk.js",
-    "static/js/3.8c8f8b40.chunk.js.map": "/zekiblue.com/static/js/3.8c8f8b40.chunk.js.map",
-    "index.html": "/zekiblue.com/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/zekiblue.com/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.76e8ed9f.chunk.js.LICENSE.txt": "/zekiblue.com/static/js/2.76e8ed9f.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/zekiblue.com/static/media/logo.6ce24c58.svg"
+    "main.css": "/static/css/main.6fb8edc7.chunk.css",
+    "main.js": "/static/js/main.cb8ef033.chunk.js",
+    "main.js.map": "/static/js/main.cb8ef033.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fa3dcdfa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fa3dcdfa.js.map",
+    "static/js/2.d7be3689.chunk.js": "/static/js/2.d7be3689.chunk.js",
+    "static/js/2.d7be3689.chunk.js.map": "/static/js/2.d7be3689.chunk.js.map",
+    "static/js/3.e0b7cf6f.chunk.js": "/static/js/3.e0b7cf6f.chunk.js",
+    "static/js/3.e0b7cf6f.chunk.js.map": "/static/js/3.e0b7cf6f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6fb8edc7.chunk.css.map": "/static/css/main.6fb8edc7.chunk.css.map",
+    "static/js/2.d7be3689.chunk.js.LICENSE.txt": "/static/js/2.d7be3689.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/ChicagoFLF.f9f3d9e0.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.2ad18e65.js",
-    "static/js/2.76e8ed9f.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.2b3fb1b7.chunk.js"
+    "static/js/runtime-main.fa3dcdfa.js",
+    "static/js/2.d7be3689.chunk.js",
+    "static/css/main.6fb8edc7.chunk.css",
+    "static/js/main.cb8ef033.chunk.js"
   ]
 }
