@@ -264,5 +264,6 @@ a {
 }
 
 .popup-arrow {
-    color: #ccc;
+    color: rgb(0, 0, 0);
+    padding-top: 2px;
 }
