@@ -218,3 +218,51 @@ a {
 .app-name {
     margin-top: 7px;
 }
+
+/* The following styles are for the demo only */
+.popup {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border: 2px solid #111;
+    background: #ccc;
+    box-shadow:
+	1px 2px #111,
+	inset 1px 1px 0px 0px #fff,
+	inset -1px -1px 0px 0px #999;
+}
+
+.popup .inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2px 4px 4px 4px;
+    border: 1px solid #111;
+    background-color: #ddd;
+        /*background: rgb(2,0,36) !important;
+        background: linear-gradient(331deg, rgba(2,0,36,1) 0%, rgba(139,88,94,1) 0%, rgba(53,101,125,1) 14%, rgba(40,127,156,1) 29%, rgba(0,212,255,1) 100%) !important;
+        padding-bottom: 4%;*/
+    padding: 10px;
+    box-shadow:
+	-1px -1px 0px 0px #999,
+	1px 1px 0px 0px #fff,
+	inset 1px 1px 0px 0px #fff,
+	inset -1px -1px 0px 0px #999;
+}
+
+.popup .inner .logo {
+    flex: 1;
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.popup-arrow {
+    color: #ccc;
+}
