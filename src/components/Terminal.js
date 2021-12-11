@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import InnerComponent from "./InnerComponent";
-import SocialPopup from "./SocialPopup";
+import FooterButtons from "./FooterButtons";
 
 
 function Terminal() {
@@ -9,8 +9,7 @@ function Terminal() {
         <div id="content" className="content">
             < Header />
             < InnerComponent />
-            <a href="./"><button className="command_button">Reboot</button></a>
-            < SocialPopup />
+            < FooterButtons />
         </div>
     );
 }
