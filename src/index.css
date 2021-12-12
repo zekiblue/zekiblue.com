@@ -237,6 +237,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: stretch;
     margin: 2px 4px 4px 4px;
     border: 1px solid #111;
     background-color: #ddd;
@@ -264,4 +265,24 @@ a {
 .popup-arrow {
     color: rgb(0, 0, 0);
     padding-top: 2px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    justify-content: space-between;   
+}
+
+.footer .sub-footer {
+    flex: 1;
+}
+
+.footer2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer2 .sub-footer {
+    flex: 50%;
 }

@@ -1,17 +1,29 @@
-import React, { Component } from "react"
+import React from "react"
+import Header from "../components/Header";
+import FooterButtons from "../components/Footer";
+import DetailsAboutMe from "../pages/DetailsAboutMe";
+import MyApps from "../pages/MyApps";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+  } from "react-router-dom";
 
 
-import Terminal from '../components/Terminal';
+export default function Index() {
 
-class Index extends Component {
-    render() {
-        return (
-            <div class="main-container">
-                <Terminal />
-            </div>
+    return (
+        <Router>
 
-        )
-    }
+        <div id="content" className="content">
+            < Header />
+            <Routes>
+                <Route exact path="/" element={<DetailsAboutMe/>} />
+                <Route path="/apps" element={<MyApps/>} />
+            </Routes>
+            < FooterButtons />
+        </div>
+        </Router>
+
+    );
 }
-
-export default Index;

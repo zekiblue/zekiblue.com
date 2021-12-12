@@ -3,7 +3,10 @@ import React from 'react';
 // import Popup
 import Popup from 'reactjs-popup';
 
-export default () => (
+export default class SocialPopup extends React.Component {
+    
+    render() {
+    return (
     <Popup
         trigger={<button className="command_button">Socials</button>}
         position="bottom center">
@@ -22,4 +25,5 @@ export default () => (
             </div>
         </div>
     </Popup>
-);
+    )};
+};

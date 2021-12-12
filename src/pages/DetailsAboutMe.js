@@ -2,13 +2,9 @@
 
 import React from 'react';
 
-
-const InnerComponent = (props) => {
+class DetailsAboutMe extends React.Component {
+  render() {
     return (
-//        <div className="inner-component">
-//        <h1>{props.title}</h1>
-//        <p>{props.description}</p>
-//        </div>
         <div className="inner">
         <br></br>
         <ul>
@@ -33,8 +29,8 @@ const InnerComponent = (props) => {
             </li>
         </ul>
     </div>
-    );
+    )
+    }
 }
 
-
-export default InnerComponent;
+export default DetailsAboutMe;
